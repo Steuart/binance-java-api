@@ -6,7 +6,7 @@
 
   <groupId>com.binance.api</groupId>
   <artifactId>binance-api-client</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <licenses>
     <license>
       <name>The MIT License</name>
@@ -15,7 +15,7 @@
   </licenses>
 
   <properties>
-    <com.squareup.retrofit2.version>2.4.0</com.squareup.retrofit2.version>
+    <com.squareup.retrofit2.version>2.9.0</com.squareup.retrofit2.version>
   </properties>
 
   <dependencies>
@@ -52,6 +52,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>

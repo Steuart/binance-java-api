@@ -21,12 +21,4 @@ public interface BinanceApiCallback<T> {
      * @param cause the cause of the failure
      */
     default void onFailure(Throwable cause) {}
-
-    /**
-     * Called whenever the WebSocket is closed.
-     *
-     * @param code the status code indicating closure
-     * @param reason the reason for closure
-     */
-    default void onClosing(int code, String reason) {}
 }

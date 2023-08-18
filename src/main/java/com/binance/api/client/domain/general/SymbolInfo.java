@@ -149,23 +149,23 @@ public class SymbolInfo {
    */
   public SymbolFilter getSymbolFilter(FilterType filterType) {
     return filters.stream()
-        .filter(symbolFilter -> symbolFilter.getFilterType() == filterType)
-        .findFirst()
-        .get();
+            .filter(symbolFilter -> symbolFilter.getFilterType() == filterType)
+            .findFirst()
+            .get();
   }
 
   @Override
   public String toString() {
     return new ToStringBuilder(this, BinanceApiConstants.TO_STRING_BUILDER_STYLE)
-        .append("symbol", symbol)
-        .append("status", status)
-        .append("baseAsset", baseAsset)
-        .append("baseAssetPrecision", baseAssetPrecision)
-        .append("quoteAsset", quoteAsset)
-        .append("quotePrecision", quotePrecision)
-        .append("orderTypes", orderTypes)
-        .append("icebergAllowed", icebergAllowed)
-        .append("filters", filters)
-        .toString();
+            .append("symbol", symbol)
+            .append("status", status)
+            .append("baseAsset", baseAsset)
+            .append("baseAssetPrecision", baseAssetPrecision)
+            .append("quoteAsset", quoteAsset)
+            .append("quotePrecision", quotePrecision)
+            .append("orderTypes", orderTypes)
+            .append("icebergAllowed", icebergAllowed)
+            .append("filters", filters)
+            .toString();
   }
 }

@@ -15,19 +15,20 @@
   </licenses>
 
   <properties>
-    <com.squareup.retrofit2.version>2.9.0</com.squareup.retrofit2.version>
+    <retrofit2.version>2.7.2</retrofit2.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>retrofit</artifactId>
-      <version>${com.squareup.retrofit2.version}</version>
+      <version>${retrofit2.version}</version>
     </dependency>
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>converter-jackson</artifactId>
-      <version>${com.squareup.retrofit2.version}</version>
+      <version>${retrofit2.version}</version>
     </dependency>
     <dependency>
       <groupId>commons-codec</groupId>
